@@ -5,9 +5,8 @@ var Main = (props) => {  // convert it to state-less functional component using 
         return (  // removed "this" bc it's no longer in a anonymous func
             <div>
               <Navigation/>
-                <div >
-                    <div >
-                            <p>Main.jsx Rendered</p>
+                <div className="row">
+                    <div className="column small-centered medium-6 large-4">
                         {props.children}
                     </div>
                 </div>
